@@ -28,15 +28,42 @@ The data cleaning steps used are:
 ```
     df_crypto_new = df_crypto_new[df_crypto_new['TotalCoinsMined']>0]
 ```
+Note there is one row where the coins mined is negative which should not happen so this has been excluded. 
 
 ### MODEL
 
-Using PCA, the dataframe is reduced to 3 principal components with the CryptoCurrenty abbreviation as the index.
+Using PCA, the dataframe is reduced to 3 principal components with the CryptoCurrenty abbreviation as the index.  When re-running PCA, the values change slightly so each run of the model may end up with slightly different results. 
 
 The Variance ratio on the 3 components are:
 ```
-array([0.02793052, 0.02138373, 0.02050591])
+array([0.02793073, 0.02139493, 0.02049771])
 ```
+The PCA processed data is now run through the Kmeans algorithm to produce an Elbow Curve as shown below:
+elbowcurve
+![]()
+
+This curve suggests that the number of clusters should be 4 because that is where the elbow curve starts to flatten out.
+
+
+Kmeans is run and a new dataframe is created: 
+outputdel3
+![]()
+
+The following 3D plot shows the 4 clusters graphed against the 3 PC Components
+
+![]()
+
+the following table shows the tradable cryptocurrencies.
+
+![]()
+
+The total number of tradable cryptocurrencies is 532.
+
+
+
+
+
+
 
 
 
