@@ -24,3 +24,19 @@ The data cleaning steps used are:
 ```
     df_crypto_new = df_crypto.dropna()
 ```
+6.  Kept only the rows where coins are mined.  I have assumed anything with a positive value for "TotalCoinsMined" meets this requirement.
+```
+    df_crypto_new = df_crypto_new[df_crypto_new['TotalCoinsMined']>0]
+```
+
+### MODEL
+
+Using PCA, the dataframe is reduced to 3 principal components with the CryptoCurrenty abbreviation as the index.
+
+The Variance ratio on the 3 components are:
+```
+array([0.02793052, 0.02138373, 0.02050591])
+```
+
+
+
