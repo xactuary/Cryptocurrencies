@@ -39,15 +39,15 @@ The Variance ratio on the 3 components are:
 array([0.02793073, 0.02139493, 0.02049771])
 ```
 The PCA processed data is now run through the Kmeans algorithm to produce an Elbow Curve as shown below:
-elbowcurve
+
 ![](https://github.com/xactuary/Cryptocurrencies/blob/main/Resources/ElbowCurve.PNG)
 
 This curve suggests that the number of clusters should be 4 because that is where the elbow curve starts to flatten out.
 
 
 Kmeans is run and a new dataframe is created: 
-outputdel3
-![]()
+
+![](https://github.com/xactuary/Cryptocurrencies/blob/main/Resources/Output_Del3.PNG)
 
 The following 3D plot shows the 4 clusters graphed against the 3 PC Components
 
