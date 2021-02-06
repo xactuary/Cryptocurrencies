@@ -40,7 +40,7 @@ array([0.02793073, 0.02139493, 0.02049771])
 ```
 The PCA processed data is now run through the Kmeans algorithm to produce an Elbow Curve as shown below:
 elbowcurve
-![]()
+![](https://github.com/xactuary/Cryptocurrencies/blob/main/Resources/ElbowCurve.PNG)
 
 This curve suggests that the number of clusters should be 4 because that is where the elbow curve starts to flatten out.
 
