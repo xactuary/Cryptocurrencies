@@ -55,7 +55,7 @@ The following 3D plot shows the 4 clusters graphed against the 3 PC Components
 
 the following table shows the tradable cryptocurrencies.
 
-![]()
+![](https://github.com/xactuary/Cryptocurrencies/blob/main/Resources/table.PNG)
 
 The total number of tradable cryptocurrencies is 532.
 
