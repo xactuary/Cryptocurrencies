@@ -51,7 +51,7 @@ outputdel3
 
 The following 3D plot shows the 4 clusters graphed against the 3 PC Components
 
-![]()
+![](https://github.com/xactuary/Cryptocurrencies/blob/main/Resources/3Dplot.PNG)
 
 the following table shows the tradable cryptocurrencies.
 
