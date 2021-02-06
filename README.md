@@ -61,7 +61,7 @@ The total number of tradable cryptocurrencies is 532.
 
 Scatter plot of results.  To plot the results, the data for TotalCoinsMined and TotalCoinSupply are scaled using the MinMaxScaler.  Otherwise the data would be way to variable to graph properly.  
 
-![]()
+![](https://github.com/xactuary/Cryptocurrencies/blob/main/Resources/scatter.PNG)
 
 
 
